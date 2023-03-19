@@ -77,8 +77,8 @@ const config = {
                 },
                 {
                     href: 'https://github.com/PalisadoesFoundation',
-                    label: 'GitHub',
                     position: 'right',
+                    className: 'header-github-link'
                 },
             ],
         },
@@ -136,7 +136,7 @@ const config = {
                         },
                         {
                             label: ' Team',
-                            to: '/docs/features/members/members-overview',
+                            to: 'https://github.com/orgs/PalisadoesFoundation/people',
                             className: 'footer__icon footer__team'
                         },
                     ],

@@ -175,7 +175,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     text-decoration: none;
 }
 
-.header-github-link:before {
+/* .header-github-link:before {
     content: '';
     width: 20px;
     height: 20px;
@@ -184,6 +184,16 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     position: relative;
     right: 8px;
     top: 1px;
+} */
+
+.header-github-link {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    background-image: url('../../static/img/github-logo.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 
 .footer__icon {
